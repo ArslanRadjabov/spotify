@@ -26,3 +26,30 @@ img {
   max-width: 100%;
   height: auto;
 }
+.list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+.demo__item{
+  padding: 10px;
+  object-fit: cover;
+  img{
+    height: 300px;
+  }
+}
+form{
+  text-align: center;
+  margin: 20px  auto;
+  
+}
+#inputText{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 20px;
+}
